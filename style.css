@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Light', sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 580px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    display: none;
+    height: 1px;
+    width: 100%;
+}
+
+.br-mob {
+    display: none;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    width: 490px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-href {
+    font-family: Graphik LCG;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.header-href:hover {
+    color: #F10D48;
+    transition: 0.5s;
+}
+
+.header-span {
+    color: #F10D48;
+}
+
+.smell {
+    margin-bottom: 110px;
+}
+
+.center {
+    text-align: center;
+}
+
+.smell-logo {
+    margin-bottom: 40px;
+}
+
+.smell-banner {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.smell-title {
+    font-family: Helvetica;
+    font-size: 45px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.smell-text {
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.smell-button {
+    background: #000000;
+    color: #FFFFFF;
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    line-height: 13.93px;
+    letter-spacing: 1.399999976158142px;
+    padding: 18px 109.17px;
+    border: none;
+}
+
+.smell-button:hover {
+    background: #363333;
+    transition: 0.5s;
+}
+
+.achievements {
+    margin-bottom: 110px;
+}
+
+.achievements-title {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 1.399999976158142px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.achievements-subtitle {
+    font-family: Helvetica;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.achievements-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.achievements-text {
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product {
+    margin-bottom: 110px;
+}
+
+.product-title {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 1.399999976158142px;
+    color: #000000;    
+    margin-bottom: 10px;
+}
+
+.product-subtitle {
+    font-family: Helvetica;
+    font-size: 45px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.product-text {
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.product__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.product__card_item {
+    width: 270px;
+}
+
+.item-img {
+    margin-bottom: 25px;
+}
+
+.item-category {
+    font-family: Helvetica;
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 1.399999976158142px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.item_name {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.item_name-span {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.item__ptice-left {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.item__ptice-right {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.item__ptice_actual {
+    font-family: Helvetica;
+    font-size: 23px;
+    line-height: 32.2px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.item__ptice_discount {
+    font-family: Helvetica;
+    font-size: 23px;
+    line-height: 32.2px;
+    color: #B3B3B3;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.item__link-left {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.item__link-right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.item__link-text {
+    font-family: Helvetica;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.399999976158142px;
+    color: #000000;
+}
+
+.item__link_icon {
+    margin-left: 10.25px;
+}
+
+.item-right {
+    text-align: left;
+}
+
+.item-left {
+    text-align: right;
+}
+
+.promo {
+    margin-bottom: 95px;
+}
+
+.promo-position {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #FFE9DA;
+    text-align: center;
+}
+
+.promo-title {
+    font-family: Helvetica;
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 1.399999976158142px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.promo-subtitl {
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    color: #000000;
+}
+
+.promo-text {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.promo-button {
+    width: 280px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    margin-bottom: 18px;
+}
+
+.promo-button:hover {
+    background: #f1daed;
+    transition: 0.5s;
+}
+
+.promo-warning {
+    font-family: Helvetica;
+    font-size: 11px;
+    line-height: 15.4px;
+    color: #000000;
+}
+
+.footer {
+    background: #000000;
+    padding-top: 54px;
+    padding-bottom: 48px;
+}
+
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40.76px;
+}
+
+.footer__top_soc {
+    display: flex;
+    justify-content: space-between;
+    width: 180.87px;
+}
+
+.footer__bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__right-market {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31.93px;
+}
+
+.footer__bot_left-tel {
+    font-family: Graphik LCG;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.footer__bot_left-text {
+    font-family: Helvetica;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer__bot_right-conditions {
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer__bot_right-unsubscribe {
+    font-family: Helvetica;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .container {
+        max-width: 280px;
+    }
+    .header {
+        margin-top: 39px;
+        margin-bottom: 40px;
+    }
+
+    .header-flex {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .header-nav {
+        width: 278px;
+        order: 2;
+    }
+
+    .header-logo {
+        order: 1;
+        margin-bottom: 25px;
+    }
+
+    .block-none {
+        display: none;
+    }
+
+    .smell-logo {
+        width: 182.66px;
+        margin-bottom: 20px;
+    }
+
+    .smell-banner {
+        width: 500px;
+        position: relative;
+        left: -110px;
+        right: -100px;
+        margin-bottom: 20px;
+    }
+
+    .smell-title {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .br-mob {
+        display: block;
+    }
+
+    .smell-text {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .smell-button {
+        font-size: 11px;
+        line-height: 10.95px;
+        letter-spacing: 1.399999976158142px;
+        padding: 21px 77px;
+    }
+
+    .smell {
+        margin-bottom: 70px;
+    }
+
+    .achievements {
+        margin-bottom: 66px;
+    }
+
+    .achievements-title {
+        font-size: 11px;
+        line-height: 14.3px;
+        margin-bottom: 5px;
+    }
+
+    .achievements-subtitle {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .achievements-img {
+        margin-bottom: 14px;
+    }
+
+    .achievements-text {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .product {
+        margin-bottom: 70px;
+    }
+
+    .product-title {
+        font-size: 11px;
+        line-height: 14.3px;
+        margin-bottom: 5px;
+    }
+
+    .product-subtitle {
+        font-size: 25px;
+        line-height: 32.5px;
+        margin-bottom: 15px;
+    }
+
+    .product-text {
+        font-size: 16px;
+        line-height: 22.4px;
+        margin-bottom: 30px;
+    }
+
+    .product__card_item {
+        width: 200px;
+    }
+
+    .item-img {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .item-category {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .item_name {
+        font-size: 18px;
+        line-height: 28.98px;
+    }
+
+    .item__ptice_actual {
+        font-size: 17px;
+        line-height: 23.8px;
+    }
+
+    .item__ptice_discount {
+        font-size: 17px;
+        line-height: 23.8px;
+    }
+
+    .item__ptice-left {
+        justify-content: center;
+    }
+
+    .item__ptice-right {
+        justify-content: center;
+    }
+
+    .item-left {
+        text-align: center;
+    }
+
+    .item-right {
+        text-align: center;
+    }
+
+    .item__link-left {
+        display: none;
+    }
+
+    .item__link-right {
+        display: none;
+    }
+
+    .product__card {
+        justify-content: center;
+    }
+
+    .promo {
+        margin-bottom: 70px;
+        background: #FFE9DA;
+    }
+
+    .promo-title {
+        line-height: 16.42px;
+    }
+
+    .promo-subtitl {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .promo-text {
+        margin-bottom: 25px;
+    }
+
+    .promo-button {
+        line-height: 16.42px;
+    }
+
+    .footer {
+        padding-top: 35px;
+        padding-bottom: 33px;
+    }
+    .footer__top {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25.17px;
+    }
+
+    .footer__bot {
+        display: block;
+    }
+
+    .footer__bot_left-tel {
+        text-align: center;
+        order: 2;
+    }
+
+    .footer__bot_left-text {
+        text-align: center;
+        order: 1;
+    }
+
+    .footer__bot_left {
+        display: flex; 
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .footer__bot_right-conditions {
+        text-align: center;
+        font-family: HelveticaNeueCyr;
+    }
+
+    .footer__bot_right-unsubscribe {
+        text-align: center;
+        font-family: HelveticaNeueCyr;
+    }
+
+}
